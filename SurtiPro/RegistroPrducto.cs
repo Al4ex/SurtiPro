@@ -5,12 +5,12 @@ using MySql.Data.MySqlClient;
 
 namespace SurtiPro
 {
-    public partial class Form1 : Form
+    public partial class RegistroPrducto : Form
     {
         private int? productId;
         private ProductForm _productForm; // Agrega esta línea al comienzo de la clase Form1
 
-        public Form1(ProductForm productForm, int? productId = null) // Modifica el constructor
+        public RegistroPrducto(ProductForm productForm, int? productId = null) // Modifica el constructor
         {
             InitializeComponent();
             _productForm = productForm; // Agrega esta línea

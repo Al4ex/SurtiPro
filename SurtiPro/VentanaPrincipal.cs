@@ -40,7 +40,11 @@ namespace SurtiPro
 
         private void registrarProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             RegistroPrducto form1 = new RegistroPrducto(null);
+=======
+            Form1 form1 = new Form1(null);
+>>>>>>> e057946a2bcaf233bceae64521f7ee31984b4d06
             form1.FormClosed += FormularioMenu_FormClosed;
             form1.Show();
         }

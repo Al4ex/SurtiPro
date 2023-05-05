@@ -84,7 +84,11 @@ namespace SurtiPro
 
         private void irARegistrarProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             RegistroPrducto form1 = new RegistroPrducto(this); // no se pasa ningún argumento
+=======
+            Form1 form1 = new Form1(this); // no se pasa ningún argumento
+>>>>>>> e057946a2bcaf233bceae64521f7ee31984b4d06
             form1.Show();
             this.Hide();
         }
@@ -98,7 +102,11 @@ namespace SurtiPro
             {
                 int id = Convert.ToInt32(dataGridViewProducts.Rows[e.RowIndex].Cells["id_producto"].Value);
 
+<<<<<<< HEAD
                 RegistroPrducto form1 = new RegistroPrducto(this, id);
+=======
+                Form1 form1 = new Form1(this, id);
+>>>>>>> e057946a2bcaf233bceae64521f7ee31984b4d06
                 form1.ShowDialog();
                 LoadProductData();
             }
